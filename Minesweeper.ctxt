@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Minesweeper()
+comment1.params=row\ col\ rightButton
+comment1.target=void\ pressed(int,\ int,\ boolean)
+comment1.text=\n\ pressed\ -\ handles\ button\ presses.\ \ this\ method\ is\ called\ whenever\ the\ user\ selects\ and\ clicks\n\ on\ a\ location\ within\ the\ mine\ field\ that\ has\ not\ been\ previously\ selected.\n\ \n\ The\ view\ actionPerformed\ method\ calls\ this\ method\ and\ passes\ the\ row\ and\ col\ information\n\ as\ int\ values\n\ \n
+comment2.params=row\ col
+comment2.target=void\ scanField(int,\ int)
+comment2.text=\n\ recursively\ scan\ the\ field\ and\ reveal\ all\ squares\ that\ do\ not\ contain\ mines\n\ label\ the\ squares\ adjacent\ to\ mines\ with\ the\ number\ of\ mines\ adjacent\n
+comment3.params=numMines
+comment3.target=void\ setMines(int)
+comment3.text=\n\ set\ up\ the\ mine\ field\ according\ to\ the\ probability\ given\n\ \n
+comment4.params=row\ col
+comment4.target=int\ countMines(int,\ int)
+comment4.text=\n\ count\ the\ number\ of\ mines\ adjacent\ to\ a\ given\ location\n\ \n\ students\ write\ this\ \n\ \n
+numComments=5
